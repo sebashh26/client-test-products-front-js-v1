@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/04_cliente_buscador_productos_front.iml" filepath="$PROJECT_DIR$/04_cliente_buscador_productos_front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/public/04_cliente_buscador_productos_front.iml" filepath="$PROJECT_DIR$/public/04_cliente_buscador_productos_front.iml" />
     </modules>
   </component>
 </project>
