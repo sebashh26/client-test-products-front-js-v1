@@ -9,7 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         function buscar(){
-            let url="http://localhost:8000/productos/"+$("#categoria").val();
+            //let url="http://localhost:8000/productos/"+$("#categoria").val();
+            let url="http://localhost:7000/sproductos/productos/"+$("#categoria").val();//apunbta a la direccion del gateway
             let titulos="<thead><tr><th>Nombre</th><th>Precio</th><th>Stock</th><th></th></tr></thead>";
             $("#productos").html(titulos);
             let source=new EventSource(url);
